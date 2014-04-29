@@ -7,7 +7,7 @@ Install
 -------
 
   ```
-  $ pip install HackerNews
+  $ pip install Snappy
   ```
 
 
