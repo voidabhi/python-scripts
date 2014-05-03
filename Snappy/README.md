@@ -7,7 +7,7 @@ Install
 -------
 
   ```
-  $ pip install Snappy
+  $ pip install snapify
   ```
 
 
@@ -19,12 +19,12 @@ Copy the url of the webpage to clipboard and run following commands:
   - to copy the snap url to clipboard
 
   ```
-  $ snappy clip
+  $ snapify clip
   ```
   - to open snap in webbrowser
   
   ```
-  $ snappy web
+  $ snapify web
   ```
 
 Contribute

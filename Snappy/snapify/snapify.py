@@ -6,7 +6,7 @@ import click
 import urllib
 
 @click.group()
-def snappy():
+def snapify():
     pass
 	
 @click.command()
