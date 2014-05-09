@@ -28,7 +28,14 @@ def get_keywords_for_movie(url):
     return [td.text for tr in table.find_all('tr') for td in tr.find_all('td')]
 
 
-
+def main():
+    """Main entry point for the script."""
+    movies = get_top_grossing_movie_links(URL)
+    with open('output.csv', 'w') as output:
+        csvwriter = csv.writer(output)
+        for title, url in movies:
+            keywords = get_keywords_for_movie('http://www.imdb.com{}keywords/'.format(url))
+            csvwriter.writerow([title, keywords])
 
 
 if __name__ == '__main__':
