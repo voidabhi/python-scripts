@@ -14,4 +14,7 @@ print profile["gender"]
 print "Your friendlist"
 for friend in friends["data"]:
 	print friend["name"]
+	
+print "Posting random message on your wall"
+graph.put_object("me", "feed", message="Writing from awesome fbpy!")
 
