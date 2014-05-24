@@ -1,7 +1,7 @@
 
 import facebook
 
-oauth_access_token = "CAACEdEose0cBAO04waCG0vfZCOIfloedhMHzMZBZB56FBhv52GwTZCMAer4kZAiSdxz5Ap66fLjX18erhGHwUm5qx2ZBtVVt4LZA4YqpDoLP8XKJq9PVGArUmZBqcZAu2eQz2UdqObnFxI3thDN5TCDTarkZA3sQblWN1ZAEbCot2QT6JICw4btpQB8Q2PjvZCmnDU8ZD"
+oauth_access_token = "CAACEdEose0cBAMjD9ZBmTxOLdH71GGwY69ZBsDL6tmWeIsBHkorZC4ZBErM1RjDj8izOlBaPduDVqlYfoeI8hZB7RoVo5wF6ao9bSA2SZAPKRyLY7Ceva0ZBa4SPVQZAwXhKzbu06TPVLX5AmgZCdt17u3Nq6fXzi93ZCZAUlM05hQ4e2KKwXgklrvcUzYqZCwM8GPkZD"
 
 graph = facebook.GraphAPI(oauth_access_token)
 profile = graph.get_object("me")
@@ -16,5 +16,5 @@ for friend in friends["data"]:
 	print friend["name"]
 	
 print "Posting random message on your wall"
-graph.put_object("me", "feed", message="Writing from awesome fbpy!")
+#graph.put_object("me", "feed", message="Writing from awesome fbpy!")
 
