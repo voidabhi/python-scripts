@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-URL = "http://www.imdb.com/search/title?at=0&sort=boxoffice_gross_us,desc&start=1&year=2013,2013"
+URL = "http://www.imdb.com/search/title?at=0&sort=boxoffice_gross_us,desc&start=1&year=2014,2014"
 
 def get_top_grossing_movie_links(url):
     """Return a list of tuples containing the top grossing movies of 2013 and link to their IMDB
