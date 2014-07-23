@@ -1,0 +1,314 @@
+var deals = [
+	{
+		title: "Get 74% off on Complete Health Check Up @ RG Stone",
+		description: "RG Stone: Rs 549 for Complete Health Check Up- ECG, Complete Blood Count, Cholesterol Test & MORE worth Rs 2100. Valid Across 16 Outlets!",
+		image : "http://media.timesdeal.com/media/deal/2013/Aug/2013082311_267_21627_deal.jpg",
+		category : "Diagnostic Services",
+		validity: "22/7/2014",
+		shop : {
+				name:" RG Stone",
+				address:"East Of Kailash, Gagan Vihar + 3 location(s)",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "60% off on Complete Health Check Up @ RG Stone",
+		description: "For a Healthy You! Pay Rs 599 for Lipid Profile Test, ECG, BP & Post Test Consultation by Physician worth Rs 1500 @ RG Stone",
+		image : "http://media.timesdeal.com/media/deal/2013/Jul/2013070516_228_19114_deal.jpg",
+		category : "Diagnostic Services",
+		validity: "22/7/2014",
+		shop : {
+				name:" RG Stone",
+				address:"East Of Kailash, Gagan Vihar + 3 location(s)",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "67% Off on Hair Rebonding & Haircut @ Face to Face",
+		description: "Style up Your Hair! Pay Rs 1999 for Hair Rebonding & Haircut worth Rs 6000 @ Face to Face",
+		image : "http://media.timesdeal.com/media/deal/2014/May/2014050818_267_31834_deal.jpg",
+		category : "Spa & Salon",
+		validity: "22/7/2014",
+		shop : {
+				name:" Face to Face",
+				address:"Kalkaji, Kalkaji",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Buy 1 Get 1 FREE Offer on Yogurt (Regular Size Cup) @ Cocoberry",
+		description: "Buy Any 1 Yogurt (Regular Size Cup) from the Menu and Get Another 1 Absolutely FREE @ Cocoberry. Pay just Rs 10 to Avail This Offer!",
+		image : "http://media.timesdeal.com/media/deal/2012/Jul/2012072616_163_6976_big.jpg",
+		category : "Restaurants",
+		validity: "22/7/2014",
+		shop : {
+				name:" Cocoberry",
+				address:"Connaught Place, Defence Colony + 12 location(s)",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Enjoy Lavish Lunch Buffet (Veg OR Non-Veg) @ Dum Affairs",
+		description: "Buffet Delight for You! Pay Rs 429 for a Lavish Lunch Buffet (Veg/Non-Veg) worth Rs 800 @ Dum Affairs",
+		image : "http://media.timesdeal.com/media/deal/2014/Feb/2014021310_228_28367_deal.jpg",
+		category : "Restaurants",
+		validity: "22/7/2014",
+		shop : {
+				name:" Dum Affairs",
+				address:"South Extension 2",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Flat 40% Off on Lunch / Flat 30% Off on Dinner @ Black Pepper",
+		description: "Pay just Rs 30 to Get Flat 40% Off on Food Bill During Lunch Time / Enjoy Flat 30% Off on Food Bill During Dinner Time @ Black Pepper",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042915_267_31426_deal.jpg",
+		category : "Restaurants",
+		validity: "22/7/2014",
+		shop : {
+				name:" Black Pepper",
+				address:"Rajouri Garden",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Buy 1 Get 1 Offer on 5D Movie Tickets @ Bonzai Entertainment",
+		description: "Enjoy Buy 1 & Get 1 FREE Offer on 5D Movie Tickets @ Bonzai Entertainment. Pay Rs 10 to Avail this Offer!",
+		image : "http://media.timesdeal.com/media/deal/2013/Jun/2013062817_228_19943_deal.jpg",
+		category : "Entertainment",
+		validity: "22/7/2014",
+		shop : {
+				name:" Bonzai Entertainment",
+				address:"V3S Mall, West Gate Mall",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Buy 1 Get 1 FREE Offer on Entry Tickets @ Laser Battle Challenge",
+		description: "Rajouri Garden: Buy 1 & Get 1 Free Offer on Entry Tickets @ Laser Battle Challenge. Pay Rs 10 to Avail this Offer!",
+		image : "http://media.timesdeal.com/media/deal/2013/Jun/2013062715_163_19896_deal.jpg",
+		category : "Entertainment",
+		validity: "22/7/2014",
+		shop : {
+				name:" Laser Battle Challenge",
+				address:"West Gate Mall",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Buy 1 Get 1 Free Offer on Entry Tickets @ Bonzai Entertainment",
+		description: "Entertainment Redefined! Buy 1 Entry Ticket & Get Another 1 Absolutely FREE @ Bonzai Entertainment. Pay Rs 10 to Avail this Offer!",
+		image : "http://media.timesdeal.com/media/deal/2013/Mar/2013031110_163_15100_deal.jpg",
+		category : "Entertainment",
+		validity: "22/7/2014",
+		shop : {
+				name:" Bonzai Entertainment",
+				address:"V3S Mall, West Gate Mall",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Choice of Any 9 Beauty Services @ Ambica Herbal Beauty Parlour",
+		description: "Be Your Kind of Beautiful! Pay just Rs 799 for Choice of Any 9 Beauty Services worth Rs 7050 @ Ambica Herbal Beauty Parlour",
+		image : "http://media.timesdeal.com/media/deal/2014/Feb/2014021816_267_28643_deal.jpg",
+		category : "Salon",
+		validity: "22/7/2014",
+		shop : {
+				name:" Ambica Herbal Beauty Parlour",
+				address:"Malviya Nagar",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Cleansing, Microdermabrassion, De-Tan Pack & MORE @ CLINIC DERMATECH",
+		description: "Pay Rs 499 for Cleansing, Microdermabrassion, Aloevera Gel Massage, Vitamin C & De-Tan Pack worth Rs 1500 @ CLINIC DERMATECH",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014040415_228_30607_deal.jpg",
+		category : "Clinical/Laser Treatment",
+		validity: "22/7/2014",
+		shop : {
+				name:" CLINIC DERMATECH",
+				address:"Defence Colony, Noida + 5 location(s)",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Full Body Therapy Massage & Face Clean Up @ I Wellness Spa & Salon",
+		description: "Complete Rejuvenate! Pay Rs 999 for Full Body Therapy Massage & Face Clean Up worth Rs 3400 @ I Wellness Spa & Salon",
+		image : "http://media.timesdeal.com/media/deal/2014/Feb/2014022812_267_29083_deal.jpg",
+		category : "Spa & Salon",
+		validity: "22/7/2014",
+		shop : {
+				name:" I Wellness Spa & Salon",
+				address:"Dwarka Sector-7, Green Park + 1 location",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "SAVE Rs 7000 on 5D/4N Travel Package to Sri Lanka",
+		description: "SRI LANKA: Pay Rs 19999 for 5D/4N Travel Package worth Rs 26999. Includes Accommodation, Breakfast, Sightseeing & MORE!",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042916_267_31452_deal.jpg",
+		category : "Srilanka",
+		validity: "22/7/2014",
+		shop : {
+				name:"",
+				address:"",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "SAVE Rs 1100 on 3D/2N Stay & MORE in Pondicherry @ Le Pondy Resort",
+		description: "Pondicherry: Pay Rs 7000 for 3D/2N Stay worth Rs 8100 @ Le Pondy Resort. Includes Breakfast Plan & Usage of Resort Facilities!",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014041816_267_31005_deal.jpg",
+		category : "Pondicherry",
+		validity: "22/7/2014",
+		shop : {
+				name:" Le Pondy Resort",
+				address:"",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Explore Amazing Europe and Get Upto 60% Off @ Oceania Cruises India",
+		description: "Amazing Europe! Cruise to Popular and Boutique European countries in Luxury and enjoy 60% OFF on Cruise Fares from Oceania Cruises India",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042517_228_31238_deal.jpg",
+		category : "Across Mumbai",
+		validity: "22/7/2014",
+		shop : {
+				name:" Oceania Cruises India",
+				address:"",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Whole Body Checkup including 83 Tests @ Wellness Pathcare",
+		description: "Medical Checkup at the Comfort of Your Home! Pay Rs 1499 for Whole Body Checkup (Includes 83 Tests) worth Rs 6000 @ Wellness Pathcare",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014043017_267_31521_deal.jpg",
+		category : "Diagnostic Services",
+		validity: "22/7/2014",
+		shop : {
+				name:" Wellness Pathcare",
+				address:"Pick-Up & Delivery Across  Delhi, Gurgaon, Noida, Ghaziabad & Faridabad",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Aarogypro Health Care Pvt Ltd: 77% off on Vitamin D Total Profile Test",
+		description: "Aarogypro Health Care Pvt Ltd: Pay Rs 1199 for Liver Profile, Lipid Profile, Kidney Profile, Thyroid Profile, Arthritis & MORE worth Rs 5200",
+		image : "http://media.timesdeal.com/media/deal/2014/Jan/2014012415_267_27474_deal.jpg",
+		category : "Diagnostic Services",
+		validity: "22/7/2014",
+		shop : {
+				name:"",
+				address:"Pick up & Delivery all across Delhi/Ncr",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Get 62% Off on Body Profile @ Thyrocare Technologies Limited",
+		description: "Pay Rs 2299 for Aarogyam 2.2- Vitamin Profile, Liver Profile, Complete Hemogram & MORE worth Rs 6000 @ Thyrocare Technologies Limited",
+		image : "http://media.timesdeal.com/media/deal/2014/Jan/2014011617_228_26849_deal.jpg",
+		category : "Health & Fitness",
+		validity: "22/7/2014",
+		shop : {
+				name:" Thyrocare Technologies Limited",
+				address:"Across Delhi NCR",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Flat 89% off on 12 Square Inch Permanent Tattoo @ Tattoo Demons",
+		description: "Pay just Rs 649 for 12 Square Inch Permanent Black and White Tattoo worth Rs 6000 @ Tattoo Demons",
+		image : "http://media.timesdeal.com/media/deal/2014/Jan/2014010315_267_26537_deal.jpg",
+		category : "Tattoo",
+		validity: "22/7/2014",
+		shop : {
+				name:" Tattoo Demons",
+				address:"Green Park",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "9 Square Inch Permanent Black and White Tattoo @ Tattoo Demons",
+		description: "Get Inked! Pay just Rs 549 for 9 Square Inch Permanent Black and White Tattoo worth Rs 4500 @ Tattoo Demons",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042911_267_31357_deal.jpg",
+		category : "Tattoo",
+		validity: "22/7/2014",
+		shop : {
+				name:" Tattoo Demons",
+				address:"Green Park",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "SAVE Rs 1501 @ Narayani Heights Hotel and Resort, Ahmedabad",
+		description: "Ahmedabad: Pay Rs 3999 for 2D/1N Couple Stay & MORE worth Rs 5500 @ Narayani Heights Hotel and Resort. Includes Welcome Drink & MORE!",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042510_228_31208_deal.jpg",
+		category : "Services",
+		validity: "22/7/2014",
+		shop : {
+				name:" Narayani Heights Hotel and Resort, Ahmedabad",
+				address:"Ahmedabad",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Car Interior & Exterior Cleaning Package @ Smart Kar Kare Services",
+		description: "Pay Rs 909 for Car Interior & Exterior Cleaning Package- Car Wash, Dry cleaning & MORE worth Rs 2000 @ Smart Kar Kare Services",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014041817_267_31034_deal.jpg",
+		category : "Car/Bike Spa",
+		validity: "22/7/2014",
+		shop : {
+				name:" Smart Kar Kare Services",
+				address:"Service Across Delhi-Ncr",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Doorstep Premium Wash for Hatchback/Small Cars @ autocarspa.com",
+		description: "Delhi/Gurgaon: Pay Rs 799 for Doorstep Car Cleaning Services- Premium Wash for Hatchback/Small Cars worth Rs 1799 @ Autocarspa.com",
+		image : "http://media.timesdeal.com/media/deal/2014/May/2014050116_228_31562_deal.jpg",
+		category : "Car/Bike Spa",
+		validity: "22/7/2014",
+		shop : {
+				name:" autocarspa.com",
+				address:"Service Across Delhi-Ncr",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+	{
+		title: "Teflon Coating (Any Car, Any Segment) @ Smart Kar Kare Services",
+		description: "Pay Rs 1510 for Teflon Coating (Any Car, Any Segment) worth Rs 3500 @ Smart Kar Kare Services. Also Get Complementary Interior Package!",
+		image : "http://media.timesdeal.com/media/deal/2014/Apr/2014042116_267_31066_deal.jpg",
+		category : "Car/Bike Spa",
+		validity: "22/7/2014",
+		shop : {
+				name:" Smart Kar Kare Services",
+				address:"Service Across Delhi-Ncr",
+				image:"http://media.timesdeal.com/images/times-deal-logo.png",
+				phone:"+919450955992"
+		}
+	},
+];
