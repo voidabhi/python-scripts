@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 TIMESDEAL_URL = "http://timesdeal.com/delhi-ncr-deals/"
+LOCAL_FILENAME = "deals.json"
 
 # fetching timesdeal markup
 r = requests.get(TIMESDEAL_URL)
@@ -10,7 +11,7 @@ soup = BeautifulSoup(r.text)
 
 # fetching all deals data and storing it in file
 deals = soup.find_all("li",class_="dealBox")
-fp = open("deals.json","wb+");
+fp = open(LOCAL_FILENAME,"wb+");
 fp.write("var deals = [\n")
 for deal in deals:
 	fp.write("\t{\n")
