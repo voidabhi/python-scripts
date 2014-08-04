@@ -2,6 +2,7 @@ Python Scripts
 ===============
 
 `FbPy` - controls your fb account
+'CamPy` - command line camera
 
 
 
