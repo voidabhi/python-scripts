@@ -4,6 +4,7 @@ Python Scripts
 `FbPy` - controls your fb account
 `CamPy` - command line camera
 `JSONReader` - reads json data from file
+`PNRPy` - checks the pnr status
 
 
 
