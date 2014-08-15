@@ -6,6 +6,7 @@ Python Scripts
 `JSONReader` - reads json data from file
 `PNRPy` - checks the pnr status
 `Imdbpy` - IMDB keywords from 2013's top grossing movies
+`Snappy` - controls your snapchat account
 
 
 License
