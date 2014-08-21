@@ -7,6 +7,7 @@ Python Scripts
 `PNRPy` - checks the pnr status
 `Imdbpy` - IMDB keywords from 2013's top grossing movies
 `Snappy` - controls your snapchat account
+`Mappy`-  shows location of place on google map
 
 
 License
