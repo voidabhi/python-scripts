@@ -8,7 +8,7 @@ Python Scripts
 `Imdbpy` - IMDB keywords from 2013's top grossing movies
 `Snappy` - controls your snapchat account
 `Mappy`-  shows location of place on google map
-`Tutspy`- download tutorials in pdf format 
+`TutsPy`- download tutorials in pdf format 
 
 License
 ==============
