@@ -21,6 +21,7 @@ def clip(url,format,w,h):
 	  }
 	);
 	try:
+	        # copying it to the clipboard
 		pyperclip.setcb(response.body['screenshot'])
 	except:
 		pass
