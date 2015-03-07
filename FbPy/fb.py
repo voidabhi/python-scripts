@@ -1,6 +1,7 @@
 
 import facebook
 
+# fb access token
 oauth_access_token = "CAACEdEose0cBAMjD9ZBmTxOLdH71GGwY69ZBsDL6tmWeIsBHkorZC4ZBErM1RjDj8izOlBaPduDVqlYfoeI8hZB7RoVo5wF6ao9bSA2SZAPKRyLY7Ceva0ZBa4SPVQZAwXhKzbu06TPVLX5AmgZCdt17u3Nq6fXzi93ZCZAUlM05hQ4e2KKwXgklrvcUzYqZCwM8GPkZD"
 
 graph = facebook.GraphAPI(oauth_access_token)
