@@ -7,6 +7,7 @@ import HTMLParser
 import requests
 import time
 
+# constant urls
 show_url = "http://www.tunefind.com/show/%s"
 season_url = "http://www.tunefind.com/show/%s/season-%d"
 episode_url = "http://www.tunefind.com/show/%s/season-%d/%s"
