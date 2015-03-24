@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+# constants
 TIMESDEAL_URL = "http://timesdeal.com/delhi-ncr-deals/"
 LOCAL_FILENAME = "deals.json"
 
