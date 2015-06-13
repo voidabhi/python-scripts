@@ -6,6 +6,8 @@ import time
 import sys
 import re
 
+
+# main fetching logic
 def check_pnr_status(pnr):
 	r = requests.get(URL%pnr)
 	pnrInfo = r.text[2:-2].split('^')
