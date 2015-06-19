@@ -1,6 +1,8 @@
 Pymail
 ======
 
+*This script is now a separate project. Checkout voidabhi/pymail
+
 Simple python mailing script with gmail account!
 
 Features
