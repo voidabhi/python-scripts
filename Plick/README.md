@@ -1,4 +1,3 @@
-
 # Plick
 
-A command line tool for
+A command line tool for downloading file
