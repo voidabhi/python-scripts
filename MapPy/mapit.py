@@ -1,6 +1,6 @@
 import webbrowser, sys
 
-#fetching the query
+#fetching the query from command lines
 if len(sys.argv) > 1:
     #get from command line
     address = ' '.join(sys.argv[1:]).strip()
