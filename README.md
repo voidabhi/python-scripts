@@ -1,7 +1,7 @@
 Python Scripts
 ===============
 
-`FbPy` - controls your fb account
+`FbPy` - script that automates your fb tasks
 
 `CamPy` - command line camera
 
