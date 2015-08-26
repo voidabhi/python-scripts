@@ -44,6 +44,7 @@ if __name__=='__main__':
 			print('Invalid PNR Number')
 			break
 	print('Thank you for using the service...see you soon!')"""
+	# sample regex
 	test = '~^8226077749^17412^Mahalaxmi Exp^22-7-2014^SLI^KYN^SL^Chart Not Prepared^~^S6 , 61,GN^CNF^~^S6 , 59,GN^CNF^~^S6 , 58,GN^CNF^~'
 	format  = r'(~@[a-zA-Z0-9]{2} , [0-9]{2},[a-zA-Z]{2}@.*@~)'
 	test = test.replace('^','@')
