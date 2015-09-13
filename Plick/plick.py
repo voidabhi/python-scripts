@@ -5,6 +5,7 @@ import requests
 import pyperclip
 import click
 
+# grouping commands
 @click.group()
 def plick():
     pass
@@ -41,3 +42,6 @@ def download(url):
 				sys.stdout.flush()	
 	
 plick.add_command(download)
+, re.IGNORECASE)
+	if not re.match(url_regex,url):
+		print 
