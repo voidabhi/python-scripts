@@ -49,7 +49,7 @@ def urlopen(url, tries=10):
             exc = e
     raise Exception(exc)
 
-
+# function to download song
 def download_song(song, location):
     print song
     song_name = song[1] + " - " + song[0] + ".mp3"
