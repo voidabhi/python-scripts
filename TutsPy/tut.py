@@ -20,4 +20,6 @@ def get_all_chapters():
 			filename  = link['href'].split('/')[-1]
 			download_file(DOWNLOAD_ENDPOINT%(SUBJECT,filename.split('.')[0]),SUBJECT+'/'+filename.split('.')[0])
 
-get_all_chapters()
+
+if __name__ == '__main__':
+	get_all_chapters()
