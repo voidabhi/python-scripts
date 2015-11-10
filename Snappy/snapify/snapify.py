@@ -47,6 +47,6 @@ def web(url,format,w,h):
 	finally:
 		print response.body['message']
 		
-
+# add commands
 snappy.add_command(clip)
 snappy.add_command(web)
