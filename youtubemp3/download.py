@@ -137,5 +137,5 @@ def get_show_music(show):
 
 if __name__ == '__main__':
     download_song(["Humme hai hero", "A R Rahman"], "Misc")
-   # get_show_music("How I Met Your Mother")
+    get_show_music("How I Met Your Mother")
    # get_show_music("Castle")
