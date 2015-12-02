@@ -9,14 +9,18 @@ import re
 
 # main fetching logic
 def check_pnr_status(pnr):
+	# fetch html soup
 	r = requests.get(URL%pnr)
+	# fetch pnr info from html
 	pnrInfo = r.text[2:-2].split('^')
+	# check if reservation is confirmed
 	if len(pnrInfo)==11:
 		if pnrInfo[-1] == "CNF":
 			return Status.CONFIRMED
 	else:
 		print(pnrInfo[-1])
 		return Status.WAITING
+	# return invalid pnr
 	return Status.INVALID_PNR
 	
 # adding progress bar
