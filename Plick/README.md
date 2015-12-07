@@ -1,3 +1,3 @@
 # Plick
 
-A command line tool for downloading file from url
+A command line utility for downloading file from url
