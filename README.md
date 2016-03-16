@@ -1,7 +1,6 @@
-Python Scripts
-===============
+## Python Scripts
 
-Simple python scripts
+### Simple python scripts
 
 `FbPy` - script that automates your fb tasks
 
@@ -19,8 +18,7 @@ Simple python scripts
 
 `TutsPy`- download tutorials in pdf format from site [`Tutorials Point`](http://www.tutorialspoint.com)
 
-License
-==============
+### License
 
 ```
 Copyright 2014 Abhijeet Mohan - https://github.com/voidabhi/python-scripts
