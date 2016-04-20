@@ -1,7 +1,5 @@
 ## Python Scripts
 
-### Simple python scripts
-
 `FbPy` - script that automates your fb tasks
 
 `CamPy` - command line camera
