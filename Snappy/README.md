@@ -1,18 +1,15 @@
-Snappy
-======
+## Snappy
 
 Command line tool for taking snapshots of a webpage.
 
-Install
--------
+### Install
 
   ```
   $ pip install snapify
   ```
 
 
-Usage
------
+### Usage
 
 Copy the url of the webpage to clipboard and run following commands:
 
@@ -27,7 +24,6 @@ Copy the url of the webpage to clipboard and run following commands:
   $ snapify web
   ```
 
-Contribute
-----------
+### Contribute
 
 Feel free to send pull request
