@@ -8,6 +8,8 @@
 
 `PNRPy` - checks the pnr status 
 
+`Plick` - command line file downloader
+
 `Imdbpy` - IMDB keywords from 2013's top grossing movies
 
 `Snappy` - control your snapchat account
