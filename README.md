@@ -18,6 +18,8 @@
 
 `TutsPy`- download tutorials in pdf format from site [`Tutorials Point`](http://www.tutorialspoint.com)
 
+`Stocks` - script to get stocks data from finance.yahoo.com
+
 ### License
 
 ```
