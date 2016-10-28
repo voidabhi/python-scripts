@@ -20,6 +20,8 @@
 
 `Stocks` - script to get stocks data from finance.yahoo.com
 
+`WAMP` - sample tornador web app written in wamp
+
 ### License
 
 ```
