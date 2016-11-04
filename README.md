@@ -22,6 +22,8 @@
 
 `WAMP` - sample tornador web app written in wamp
 
+`Sprites` - script to create sprites from image
+
 ### License
 
 ```
