@@ -28,6 +28,11 @@
 
 `AB Tornado` - Script for running ab test in tornado
 
+`SC` - Sound cloud client
+
+`Redis Backup` - Script to take the redis backup
+
+
 ### License
 
 ```
