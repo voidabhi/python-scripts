@@ -32,6 +32,8 @@
 
 `Redis Backup` - Script to take the redis backup
 
+'AVRO RPC' - RPC over avro protocol
+
 
 ### License
 
